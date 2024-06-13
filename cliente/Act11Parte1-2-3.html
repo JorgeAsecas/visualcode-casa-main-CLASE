@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" id="seccion">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web En Entorno Cliente</title>
+
+</head>
+<body id="cuerpo"  onload="carga()" >
+<main>
+
+    <form id="form" method="POST" enctype ="text/plain">
+
+</fieldset>
+<p>¿Que tipo de cafe te gusta mas?</p>
+    <input type="radio" id="cafe11" name="cafe" value="Cafe Solo">
+    <label for="opcion1">Cafe Solo</label><br>
+    <input type="radio" id="cafe22" name="cafe" value="Cafe Con Leche">
+    <label for="opcion2">Cafe Con Leche</label><br>
+    <input type="radio" id="cafe33" name="cafe" value="Cafe Descafeinado">
+    <label for="opcion3">Cafe Descafeinado</label><br>
+    <input type="radio" id="cafe44" name="cafe" value="Cafe Con Hielo">
+    <label for="opcion4">Cafe Con Hielo</label><br>
+
+    <br><br>
+
+
+    <input type="submit" value="Votar ¡">
+
+</form>
+
+
+<label for="cafe1">Cafe Solo</label>
+<progress id="cafe1" max="100" value="0"  ></progress>
+<p id="votos1" ></p>
+<br><br>
+<label for="cafe2">Cafe Con Leche</label>
+<progress id="cafe2" max="100" value="0"></progress>
+<p id="votos2" ></p>
+<br><br>
+<label for="cafe3">Cafe Descafeinado</label>
+<progress id="cafe3" max="100" value="0"></progress>
+<p id="votos3" ></p>
+<br><br>
+<label for="cafe4">Cafe Con Hielo</label>
+<progress id="cafe4" max="100" value="0"></progress>
+<p id="votos4" ></p>
+<script src="cafe.js"></script>
+
+
+</main>
+</body>
+</html>
